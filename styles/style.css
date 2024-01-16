@@ -51,6 +51,68 @@ nav{
  width: 56px;
 
 }
+/* banner */
+
+.banner{
+ max-width: 1170px;
+ margin: 49px auto;
+ border: 2px solid rgb(253, 253, 253);
+ background-image: linear-gradient( to top,rgba(0.50,0,0,0),rgba(0.50,0,0,0.8)),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center;
+ border-radius: 8px;
+}
+
+.banner>h4{
+
+ font-size:64px ;
+ font-weight:800 ;
+ color: #FFF;
+ text-align:center ;
+ padding: 70px 216px 0px 216px;
+}
+.banner > p{
+ text-align: center;
+ font-size:16px ;
+ font-weight:400 ;
+ color:#ffffffaf ;
+ padding:0px 247px ;
+}
+
+.banner-nav{
+ margin: 48px 185px 106px 185px;
+ max-width: 768px;
+ padding: 16px;
+ border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+}
+.banner-nav > input{
+ font-size: 16px;
+ color:rgba(19, 19, 24, 0.50) ;
+ font-weight: 400;
+ border: none;
+ background-color:#FFF ;
+ border-radius: 8px;
+ width: 174px;
+ height: 52px;
+ padding-left: 15px;
+}
+
+.primary-btn{
+
+ font-size:16px;
+ color:#FFF ;
+ font-weight: 400;
+ border: none;
+ background-color:#FF5400;
+ border-radius: 8px;
+ width: 174px;
+ height: 52px;
+}
+
+
 
 @media screen and (max-width:576px) {
  
@@ -61,9 +123,29 @@ nav{
 .navbar>ul{
  flex-direction: column;
 }
+/* banner */
+.banner>h4{
+ font-size: 34px;
+ padding: 3px;
+}
 
-
-
+.banner>p{
+ font-size: 12px;
+ padding: 3px;
+}
+.banner-nav{
+ margin: 3px; 
+ padding-left: 47px;
+}
+.banner-nav > input{
+ margin-top: 16px;
+ width: 255px;
+ 
+}
+.primary-btn{
+margin-top: 16px;
+width: 270px ;
+}
 }
 
 
