@@ -326,6 +326,108 @@ font-weight: 400;
 color:#424247 ;
 }
 
+/* form */
+.form{
+
+ width:40% ;
+ height: 422px;
+ border: 1px solid #FF5400;
+ padding-left: 40px;
+ border-radius: 8px;
+ 
+}
+.news{
+ max-width: 1170px;
+ margin: 0 auto;
+}
+
+.form>h3{
+ font-size:24px ;
+ font-weight:800 ;
+ color: #131318;
+}
+
+.form-1{
+ display: flex;
+ flex-direction: column;
+ gap:16px;
+}
+
+.form>p{
+
+ font-size:16px ;
+ font-weight:400 ;
+ color:#424247 ;
+ padding: 16px 0;
+}
+.form-1 > input{
+
+color:rgba(19, 19, 24, 0.30) ;
+height:52px ;
+width:393px ;
+font-size:16px  ;
+font-weight:400 ;
+border-radius: 8px;
+background-color:rgba(19, 19, 24, 0.05) ;
+border: none;
+padding-left: 10px;
+
+}
+
+.form-1 > .btn-2{
+
+ color:#FFF ;
+height:52px ;
+width:393px ;
+font-size:16px  ;
+font-weight:400 ;
+border-radius: 8px;
+background-color:#FF5400 ;
+border: none;
+}
+
+
+.news{
+ display: flex;
+ gap: 24px;
+}
+
+.news > .form-img>img{
+ width: 103%;
+
+}
+
+.form-img > .discount{
+ width: 324px;
+ height: 120px;
+ background-color: #FF5400;
+ border-radius: 16px;
+ position: relative;
+ bottom: 192px;
+ left: 339px;
+ transform: rotate(-19deg);
+ padding-top: 10px;
+}
+
+.discount > h4{
+ text-align: center;
+ font-size:15px ;
+ font-weight:400 ;
+ color: #ffffffd0;
+}
+
+.discount > h5{
+ text-align: center;
+ font-size:15px ;
+ font-weight:800 ;
+ color: #ffffffd0;
+
+}
+
+
+
+
+
 
 
 
@@ -400,8 +502,35 @@ width: 270px ;
 .third-container{
  margin-left:58px ;
 }
+/* news */
+.news{
+ flex-direction: column;
+}
+.form-1 > input{
 
+ width: 80%;
+}
 
+.form{
+ width: 80%;
+}
+.form-1>.btn-2{
+ width: 80%;
+}
+.form-img{
+
+ width: 80%;
+}
+
+.form-img > .discount {
+ width: 164px;
+ height: 92px;
+ bottom: 125px;
+ left: 196px;
+}
+.news > .form-img>img{
+ width: 116%;
+}
 
 
 }
