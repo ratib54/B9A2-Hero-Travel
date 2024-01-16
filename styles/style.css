@@ -1,0 +1,69 @@
+*{
+ font-family: 'Mulish', sans-serif;
+}
+/* styling navbar */
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 1170px;
+ margin: 0 auto;
+}
+.navbar>ul{
+
+ display: flex;
+ gap: 44px;
+}
+.navbar>ul>li{
+ list-style: none;
+ color: #424247;
+ font-size: 18px ;
+ font-weight: 400 ;
+ text-transform: capitalize;
+}
+.modify-1{
+
+ color: #FF5400;
+ font-size: 36px ;
+ font-weight:800 ;
+}
+.modify-2{
+ color:#FF5400 ;
+ font-size:18px ;
+ font-weight: 400;
+}
+
+.logo-name {
+ display: flex;
+ align-items: center;
+ 
+}
+.logo-name > h3{
+  
+ color: #131318;
+ font-size: 36px;
+ font-weight:800 ;
+
+}
+.logo-name> img{
+
+ height: 48px;
+ width: 56px;
+
+}
+
+@media screen and (max-width:576px) {
+ 
+nav{
+
+ flex-direction: column;
+}
+.navbar>ul{
+ flex-direction: column;
+}
+
+
+
+}
+
+
