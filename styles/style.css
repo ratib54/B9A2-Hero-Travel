@@ -51,7 +51,7 @@ nav{
  width: 56px;
 
 }
-/* banner */
+/*  explore banner */
 
 .banner{
  max-width: 1170px;
@@ -111,18 +111,61 @@ background: rgba(255, 255, 255, 0.30);
  width: 174px;
  height: 52px;
 }
+/* popular part */
+
+.popular-banner{
+ display: flex;
+ max-width: 1170px;
+ margin: 100px auto;
+ gap: 53px;
+ align-items: center;
+
+}
+.popular-content >h3{
+
+ font-size: 40px;
+ font-weight: 800;
+ color: #131318;
+}
+.popular-content>p{
+padding-top: 24px;
+color: #424247;
+font-size:16px ;
+}
+.popular-content > ul{
+ padding-top: 24px;
+ 
+}
+.popular-content>li{
+ color: #424247;
+ font-size: 16px;
+ font-weight: 400;
+}
+.popular-img{
+
+ width: 100%;
+ border-radius: 10px; 
+}
+
+.popular-img > img{
+
+ height: 100%;
+ width: 100%;
+}
+
 
 
 
 @media screen and (max-width:576px) {
- 
-nav{
+ /* nav */
 
+nav{
  flex-direction: column;
 }
 .navbar>ul{
  flex-direction: column;
 }
+
 /* banner */
 .banner>h4{
  font-size: 34px;
@@ -146,6 +189,26 @@ nav{
 margin-top: 16px;
 width: 270px ;
 }
+/* popular-banner */
+.popular-banner{
+ flex-direction: column;
+ padding: 0px 24px;
+}
+.popular-content > h3{
+ font-size: 34px;
+ 
+}
+.popular-content>p {
+ font-size: 14px;
+}
+.popular-content> li{
+ font-size: 10px;
+}
+
+
+
+
+
 }
 
 
